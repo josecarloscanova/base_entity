@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/171/trunk/base/src/main/resources/META-INF
+END
+beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/171/trunk/base/src/main/resources/META-INF/beans.xml
+END
+persistence.xml_old.old
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/168/trunk/base/src/main/resources/META-INF/persistence.xml_old.old
+END
+configuration.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/base/src/main/resources/META-INF/configuration.properties
+END

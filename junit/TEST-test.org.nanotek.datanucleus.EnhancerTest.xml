@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="josecanova-PC" name="test.org.nanotek.datanucleus.EnhancerTest" skipped="0" tests="1" time="0.707" timestamp="2014-08-06T15:02:37">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="env.CHROME_ETW_LOGGING" value="1" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Java/eclipse-standard-luna-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.7.0_40\jre\lib\resources.jar;C:\Java\jdk1.7.0_40\jre\lib\rt.jar;C:\Java\jdk1.7.0_40\jre\lib\sunrsasign.jar;C:\Java\jdk1.7.0_40\jre\lib\jsse.jar;C:\Java\jdk1.7.0_40\jre\lib\jce.jar;C:\Java\jdk1.7.0_40\jre\lib\charsets.jar;C:\Java\jdk1.7.0_40\jre\lib\jfr.jar;C:\Java\jdk1.7.0_40\jre\classes" />
+    <property name="env.COMPUTERNAME" value="JOSECANOVA-PC" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="env.GDAL_DATA" value="C:\PostgreSQL\9.2\gdal-data" />
+    <property name="ant.home" value="C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.7.0_40-b43" />
+    <property name="env.HOMEPATH" value="\Users\josecanova" />
+    <property name="datanucleus.ConnectionDriverName" value="org.postgresql.Driver" />
+    <property name="user.name" value="josecanova" />
+    <property name="datanucleus.ConnectionPassword" value="postgres123" />
+    <property name="jpa.persistence.unit.musicbrainz" value="MusicBrainz" />
+    <property name="user.language" value="pt" />
+    <property name="env.windows_tracing_flags" value="3" />
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.7.0_40\jre\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="base" />
+    <property name="java.version" value="1.7.0_40" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="AMD64 Family 21 Model 1 Stepping 2, AuthenticAMD" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\JOSECA~1\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.7.0_40\jre\lib\endorsed" />
+    <property name="jpa.persistence.unit.instruments" value="Instruments" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../../Java/eclipse-standard-luna-R-win32-x86_64/eclipse/" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="user.country" value="BR" />
+    <property name="java.home" value="C:\Java\jdk1.7.0_40\jre" />
+    <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\josecanova\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Users\josecanova\workspace_luna\base\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="datanucleus.ConnectionUserName" value="postgres" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="schema.output.file" value="C:\Users\josecanova\workspace_luna\base/MusicBrainz_schema.ddl" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="24.0-b56" />
+    <property name="user.variant" value="" />
+    <property name="env.USERPROFILE" value="C:\Users\josecanova" />
+    <property name="datanucleus.ConnectionURL" value="jdbc:postgresql://localhost/musicbrainz" />
+    <property name="ant.library.dir" value="C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="jpa.persistence.unit.atlas" value="Atlas" />
+    <property name="ant.file.base" value="C:\Users\josecanova\workspace_luna\base\build.xml" />
+    <property name="env.JAVA_HOME" value="C:\Java\jdk1.7.0_51" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\JOSECA~1\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="ant.file.type.base" value="file" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Java/eclipse-standard-luna-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts/" />
+    <property name="user.home" value="C:\Users\josecanova" />
+    <property name="target" value="1.7" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.VCToolkitInstallDir" value="C:\CPP\VCToolKit\" />
+    <property name="jpa.persistence.unit.calendar" value="CalendarEvents" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="C:\Java\jdk1.7.0_40\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/jdk1.7.0_51/bin/../jre/bin/server;C:/Java/jdk1.7.0_51/bin/../jre/bin;C:/Java/jdk1.7.0_51/bin/../jre/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%CommonProgramFiles%\Microsoft Shared\Windows Live;C:\Java\jdk1.7.0_51\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java\apache-ant-1.9.0\bin;C:\Java\apache-maven-3.0.5\bin;C:\VisualSVN Server\bin;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Nmap;C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse;;." />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="java.class.path" value="C:\Users\josecanova\workspace_luna\base\target\classes;C:\Users\josecanova\workspace_luna\base\target\test-classes;C:\Users\josecanova\.m2\repository\com\google\appengine\appengine-api-1.0-sdk\1.9.7\appengine-api-1.0-sdk-1.9.7.jar;C:\Users\josecanova\.m2\repository\org\postgresql\postgresql\9.3-1101-jdbc4\postgresql-9.3-1101-jdbc4.jar;C:\Users\josecanova\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\josecanova\.m2\repository\jstl\jstl\1.2\jstl-1.2.jar;C:\Users\josecanova\.m2\repository\junit\junit\4.9\junit-4.9.jar;C:\Users\josecanova\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\josecanova\.m2\repository\org\mockito\mockito-all\1.9.0\mockito-all-1.9.0.jar;C:\Users\josecanova\.m2\repository\com\google\appengine\appengine-testing\1.9.7\appengine-testing-1.9.7.jar;C:\Users\josecanova\.m2\repository\com\google\appengine\appengine-api-stubs\1.9.7\appengine-api-stubs-1.9.7.jar;C:\Users\josecanova\.m2\repository\javax\javaee-api\7.0\javaee-api-7.0.jar;C:\Users\josecanova\.m2\repository\com\sun\mail\javax.mail\1.5.0\javax.mail-1.5.0.jar;C:\Users\josecanova\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\josecanova\.m2\repository\javax\transaction\transaction-api\1.1\transaction-api-1.1.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\datanucleus-core\4.0.1\datanucleus-core-4.0.1.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\datanucleus-api-jdo\4.0.1\datanucleus-api-jdo-4.0.1.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\datanucleus-jdo-query\4.0.1\datanucleus-jdo-query-4.0.1.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\datanucleus-rdbms\4.0.1\datanucleus-rdbms-4.0.1.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\datanucleus-api-jpa\4.0.1\datanucleus-api-jpa-4.0.1.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\datanucleus-enhancer\3.1.1\datanucleus-enhancer-3.1.1.jar;C:\Users\josecanova\.m2\repository\org\ow2\asm\asm\4.0\asm-4.0.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\datanucleus-maven-plugin\4.0.0-release\datanucleus-maven-plugin-4.0.0-release.jar;C:\Users\josecanova\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.8\plexus-utils-3.0.8.jar;C:\Users\josecanova\.m2\repository\org\apache\maven\maven-artifact\3.0.4\maven-artifact-3.0.4.jar;C:\Users\josecanova\.m2\repository\org\apache\maven\maven-plugin-api\3.0.4\maven-plugin-api-3.0.4.jar;C:\Users\josecanova\.m2\repository\org\apache\maven\maven-model\3.0.4\maven-model-3.0.4.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\2.3.0\sisu-inject-plexus-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\sisu-inject-bean\2.3.0\sisu-inject-bean-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0-no_aop.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\sisu-guava\0.9.9\sisu-guava-0.9.9.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-bean-containers\2.3.0\guice-bean-containers-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-bean-inject\2.3.0\guice-bean-inject-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-plexus-shim\2.3.0\guice-plexus-shim-2.3.0.jar;C:\Users\josecanova\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\sisu-guice\3.1.0\sisu-guice-3.1.0.jar;C:\Users\josecanova\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-bean-reflect\2.3.0\guice-bean-reflect-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-bean-locators\2.3.0\guice-bean-locators-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-bean-binders\2.3.0\guice-bean-binders-2.3.0.jar;C:\Users\josecanova\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\josecanova\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-bean-scanners\2.3.0\guice-bean-scanners-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-bean-converters\2.3.0\guice-bean-converters-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-plexus-metadata\2.3.0\guice-plexus-metadata-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-plexus-converters\2.3.0\guice-plexus-converters-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-plexus-locators\2.3.0\guice-plexus-locators-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-plexus-binders\2.3.0\guice-plexus-binders-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-plexus-scanners\2.3.0\guice-plexus-scanners-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\sonatype\sisu\inject\guice-plexus-lifecycles\2.3.0\guice-plexus-lifecycles-2.3.0.jar;C:\Users\josecanova\.m2\repository\org\codehaus\plexus\plexus-container-default\1.5.5\plexus-container-default-1.5.5.jar;C:\Users\josecanova\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.2\plexus-classworlds-2.2.2.jar;C:\Users\josecanova\.m2\repository\org\apache\xbean\xbean-reflect\3.4\xbean-reflect-3.4.jar;C:\Users\josecanova\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\josecanova\.m2\repository\commons-logging\commons-logging-api\1.1\commons-logging-api-1.1.jar;C:\Users\josecanova\.m2\repository\com\google\collections\google-collections\1.0\google-collections-1.0.jar;C:\Users\josecanova\.m2\repository\org\datanucleus\javax.persistence\2.1.0\javax.persistence-2.1.0.jar;C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-launcher.jar;C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar;C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit.jar;C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.org.nanotek.datanucleus.EnhancerTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\josecanova\workspace_luna\base\junit\TEST-test.org.nanotek.datanucleus.EnhancerTest.xml crashfile=C:\Users\josecanova\workspace_luna\base\junitvmwatcher7101438688185078406.properties propsfile=C:\Users\josecanova\workspace_luna\base\junit1380065500813441216.properties" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.LOGONSERVER" value="\\JOSECANOVA-PC" />
+    <property name="env.windir" value="C:\Windows" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.io.tmpdir" value="C:\Users\JOSECA~1\AppData\Local\Temp\" />
+    <property name="eclipse.pdebuild.home" value="/C:/Java/eclipse-standard-luna-R-win32-x86_64/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/./" />
+    <property name="env.PROCESSOR_REVISION" value="0102" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\Windows" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Java\jdk1.7.0_40\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Users\josecanova\workspace_luna\base" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\josecanova\AppData\Local" />
+    <property name="current.jpa.target" value="MusicBrainz" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Java/jdk1.7.0_51/bin/../jre/bin/server;C:/Java/jdk1.7.0_51/bin/../jre/bin;C:/Java/jdk1.7.0_51/bin/../jre/lib/amd64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%CommonProgramFiles%\Microsoft Shared\Windows Live;C:\Java\jdk1.7.0_51\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java\apache-ant-1.9.0\bin;C:\Java\apache-maven-3.0.5\bin;C:\VisualSVN Server\bin;C:\Program Files (x86)\Autodesk\Backburner\;C:\Program Files (x86)\Common Files\Autodesk Shared\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Nmap;C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse;" />
+    <property name="basedir" value="C:\Users\josecanova\workspace_luna\base" />
+    <property name="env.VISUALSVN_SERVER" value="C:\VisualSVN Server\" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="C:\Java\eclipse-standard-luna-R-win32-x86_64\eclipse\plugins\org.apache.ant_1.9.2.v201404171502\lib\ant.jar" />
+    <property name="env.USERNAME" value="josecanova" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.VS100COMNTOOLS" value="C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\" />
+    <property name="env.USERDOMAIN" value="josecanova-PC" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="EnhancerTest (3)" />
+    <property name="env.PROCESSOR_LEVEL" value="21" />
+  </properties>
+  <testcase classname="test.org.nanotek.datanucleus.EnhancerTest" name="test" time="0.636">
+    <error message="Errors were encountered when loading the MetaData for the persistence-unit &quot;MusicBrainz&quot;. See the nested exceptions for details" type="org.datanucleus.exceptions.NucleusUserException">Errors were encountered when loading the MetaData for the persistence-unit &quot;MusicBrainz&quot;. See the nested exceptions for details
+org.datanucleus.exceptions.NucleusUserException: Errors were encountered when loading the MetaData for the persistence-unit &quot;MusicBrainz&quot;. See the nested exceptions for details
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1095)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+Nested Throwables StackTrace:
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+java.lang.NoClassDefFoundError: javax/jdo/JDOFatalInternalException
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.getDeclaredMethods(Class.java:1845)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getJavaBeanAccessorAnnotationsForClass(AbstractAnnotationReader.java:306)
+	at org.datanucleus.metadata.annotations.AbstractAnnotationReader.getMetaDataForClass(AbstractAnnotationReader.java:142)
+	at org.datanucleus.metadata.annotations.AnnotationManagerImpl.getMetaDataForClass(AnnotationManagerImpl.java:167)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadAnnotationsForClass(MetaDataManagerImpl.java:2764)
+	at org.datanucleus.metadata.MetaDataManagerImpl.loadPersistenceUnit(MetaDataManagerImpl.java:1066)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.getFileMetadataForInput(DataNucleusEnhancer.java:768)
+	at org.datanucleus.enhancer.DataNucleusEnhancer.enhance(DataNucleusEnhancer.java:488)
+	at test.org.nanotek.datanucleus.EnhancerTest.test(EnhancerTest.java:13)
+Caused by: java.lang.ClassNotFoundException: javax.jdo.JDOFatalInternalException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+</error>
+  </testcase>
+  <system-out><![CDATA[0    [main] DEBUG DataNucleus.General  - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+13   [main] DEBUG DataNucleus.General  - Registering bundle org.datanucleus version 4.0.1 at URL file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-core/4.0.1/datanucleus-core-4.0.1.jar.
+46   [main] DEBUG DataNucleus.General  - Loading extension points from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-core/4.0.1/datanucleus-core-4.0.1.jar!/plugin.xml.
+80   [main] DEBUG DataNucleus.General  - Loading extensions from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-core/4.0.1/datanucleus-core-4.0.1.jar!/plugin.xml.
+89   [main] DEBUG DataNucleus.General  - Registering bundle org.datanucleus.api.jdo version 4.0.1 at URL file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.0.1/datanucleus-api-jdo-4.0.1.jar.
+95   [main] DEBUG DataNucleus.General  - Loading extension points from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.0.1/datanucleus-api-jdo-4.0.1.jar!/plugin.xml.
+98   [main] DEBUG DataNucleus.General  - Loading extensions from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-api-jdo/4.0.1/datanucleus-api-jdo-4.0.1.jar!/plugin.xml.
+101  [main] DEBUG DataNucleus.General  - Registering bundle org.datanucleus.jdo.query version 4.0.1 at URL file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-jdo-query/4.0.1/datanucleus-jdo-query-4.0.1.jar.
+102  [main] DEBUG DataNucleus.General  - Loading extension points from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-jdo-query/4.0.1/datanucleus-jdo-query-4.0.1.jar!/plugin.xml.
+102  [main] DEBUG DataNucleus.General  - Loading extensions from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-jdo-query/4.0.1/datanucleus-jdo-query-4.0.1.jar!/plugin.xml.
+103  [main] DEBUG DataNucleus.General  - Registering bundle org.datanucleus.store.rdbms version 4.0.1 at URL file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-rdbms/4.0.1/datanucleus-rdbms-4.0.1.jar.
+135  [main] DEBUG DataNucleus.General  - Loading extension points from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-rdbms/4.0.1/datanucleus-rdbms-4.0.1.jar!/plugin.xml.
+159  [main] DEBUG DataNucleus.General  - Loading extensions from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-rdbms/4.0.1/datanucleus-rdbms-4.0.1.jar!/plugin.xml.
+177  [main] DEBUG DataNucleus.General  - Registering bundle org.datanucleus.api.jpa version 4.0.1 at URL file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-api-jpa/4.0.1/datanucleus-api-jpa-4.0.1.jar.
+180  [main] DEBUG DataNucleus.General  - Loading extension points from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-api-jpa/4.0.1/datanucleus-api-jpa-4.0.1.jar!/plugin.xml.
+182  [main] DEBUG DataNucleus.General  - Loading extensions from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-api-jpa/4.0.1/datanucleus-api-jpa-4.0.1.jar!/plugin.xml.
+187  [main] DEBUG DataNucleus.General  - Registering bundle org.datanucleus.enhancer version 3.1.1 at URL file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar.
+188  [main] DEBUG DataNucleus.General  - Loading extension points from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar!/plugin.xml.
+188  [main] DEBUG DataNucleus.General  - Loading extensions from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar!/plugin.xml.
+189  [main] DEBUG DataNucleus.General  - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/C:/Users/josecanova/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+190  [main] DEBUG DataNucleus.General  - Loading extension points from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+191  [main] DEBUG DataNucleus.General  - Loading extensions from plug-in file jar:file:/C:/Users/josecanova/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+191  [main] WARN  DataNucleus.General  - Extension Point "org.datanucleus.implementation_creator" not registered, but plugin "org.datanucleus.enhancer" defined in file:/C:/Users/josecanova/.m2/repository/org/datanucleus/datanucleus-enhancer/3.1.1/datanucleus-enhancer-3.1.1.jar refers to it.
+220  [main] DEBUG DataNucleus.Persistence  - Java types support initialising ...
+259  [main] DEBUG DataNucleus.Persistence  - Java types support loaded : supported java types=[B, [C, [D, [F, [I, [J, [Ljava.lang.Boolean;, [Ljava.lang.Byte;, [Ljava.lang.Character;, [Ljava.lang.Double;, [Ljava.lang.Enum;, [Ljava.lang.Float;, [Ljava.lang.Integer;, [Ljava.lang.Long;, [Ljava.lang.Number;, [Ljava.lang.Short;, [Ljava.lang.String;, [Ljava.math.BigDecimal;, [Ljava.math.BigInteger;, [Ljava.util.Date;, [Ljava.util.Locale;, [S, [Z, boolean, byte, char, double, float, int, java.awt.Color, java.awt.image.BufferedImage, java.lang.Boolean, java.lang.Byte, java.lang.Character, java.lang.Class, java.lang.Double, java.lang.Enum, java.lang.Float, java.lang.Integer, java.lang.Long, java.lang.Number, java.lang.Short, java.lang.String, java.lang.StringBuffer, java.lang.StringBuilder, java.math.BigDecimal, java.math.BigInteger, java.net.URI, java.net.URL, java.sql.Date, java.sql.Time, java.sql.Timestamp, java.util.ArrayList, java.util.Arrays$ArrayList, java.util.BitSet, java.util.Calendar, java.util.Collection, java.util.Currency, java.util.Date, java.util.GregorianCalendar, java.util.HashMap, java.util.HashSet, java.util.Hashtable, java.util.LinkedHashMap, java.util.LinkedHashSet, java.util.LinkedList, java.util.List, java.util.Locale, java.util.Map, java.util.PriorityQueue, java.util.Properties, java.util.Queue, java.util.Set, java.util.SortedMap, java.util.SortedSet, java.util.Stack, java.util.TimeZone, java.util.TreeMap, java.util.TreeSet, java.util.UUID, java.util.Vector, long, short
+259  [main] DEBUG DataNucleus.Persistence  - Type converter support initialising ...
+287  [main] DEBUG DataNucleus.Persistence  - Type converter support loaded
+287  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for byte[] to : java.nio.ByteBuffer
+287  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for char[] to : java.nio.ByteBuffer
+287  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for double[] to : java.nio.ByteBuffer
+287  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for float[] to : java.nio.ByteBuffer
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for int[] to : java.nio.ByteBuffer
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for long[] to : java.nio.ByteBuffer
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for short[] to : java.nio.ByteBuffer
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for boolean[] to : java.nio.ByteBuffer
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.awt.Color to : int[],java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.io.Serializable to : byte[],java.nio.ByteBuffer,java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.lang.Boolean to : java.lang.Integer,java.lang.Character
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.lang.Character to : java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.lang.Class to : java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.lang.Integer to : java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.lang.Long to : java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.lang.StringBuffer to : java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.lang.StringBuilder to : java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.math.BigDecimal to : java.lang.Double,java.nio.ByteBuffer,java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.math.BigInteger to : java.lang.Long,java.nio.ByteBuffer,java.lang.String
+288  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.net.URI to : java.lang.String
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.net.URL to : java.lang.String
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.sql.Date to : java.lang.Long,java.lang.String,java.util.Date
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.sql.Time to : java.lang.Long,java.lang.String,java.util.Date
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.sql.Timestamp to : java.lang.Long,java.lang.String,java.util.Date
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.util.BitSet to : java.lang.String
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.util.Calendar to : [Ljava.lang.Object;,java.sql.Timestamp,java.lang.String,java.util.Date
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.util.Currency to : java.lang.String
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.util.Date to : java.lang.Long,java.lang.String
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.util.Locale to : java.lang.String
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.util.TimeZone to : java.lang.String
+289  [main] DEBUG DataNucleus.Persistence  - TypeConverter(s) available for java.util.UUID to : java.lang.String
+290  [main] DEBUG DataNucleus.MetaData  - MetaDataManager : Input=(XML,Annotations), XML-Validation=false
+290  [main] DEBUG DataNucleus.Enhancer  - Enhancing classes
+294  [main] DEBUG DataNucleus.MetaData  - Parsing MetaData file "file:/C:/Users/josecanova/workspace_luna/base/target/classes/META-INF/persistence.xml" using handler "persistence" (validation="false")
+306  [main] DEBUG DataNucleus.MetaData  - MetaData Management : Loading Metadata for persistence-unit "MusicBrainz" ...
+322  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.CountryNumericCode" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+322  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.brass.BrassInstrument" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+322  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.DateBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+322  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Stamp" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+322  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.artist.ArtistGroup" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+322  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.mail.MailBox" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+322  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.percurssion.PercurssionInstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.StringBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.contacts.ComercialContact" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.TimeZoneDateBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.keyboard.KeyboardInstrument" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.MusicalWorkCodeType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.string.StringInstrument" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.date.jpa.DateBaseEventListener" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.artist.MusicalArtist" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.event.CalendarEventBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.jpa.EntityPersistenceEventListener" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.feed.FeedGroupType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.company.RecordCompanyHistoricalData" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.Groupable" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.ShortStringBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.date.jpa.DatableEventListener" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+323  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.WindInstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Title" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.company.RecordCompany" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.keyboard.KeyboardInstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.eletronic.EletronicInstrument" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.MinuteBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.AbstractBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.company.RecordCompanyAttribute" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.IsoAlpha3Code" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.LongBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.city.AddressBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.news.FeedBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.ref.RefType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.artist.Artist" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.artist.MusicalArtistAttribute" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+324  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.CountryAreaCode" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.Stampable" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.percurssion.PercussionInstrument" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.CopyRightRecord" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.TextBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.jpa.PrePersistEventListener" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.LocalizedString" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.CalendarGroupType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.Kong" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Copyright" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.office.OfficeDetail" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.date.jpa.MinuteBaseEventListener" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.city.build.School" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Realm" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.AttributeBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+325  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.date.jpa.DayBaseEventListener" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.WorkType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.google.query.GoogleQueryBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.BirthDateBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.feed.FeedBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.IsoAlpha2Base" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.persistence.DAOException" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.Identifiable" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.ref.RefBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Link" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Name" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.brass.BrassInstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.performance.MusicalPerformance" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.CalendarBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.artist.work.Author" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.string.StringInstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+326  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.contacts.Contact" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.Release" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.persistence.DAO" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.PageItemBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.InstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.artist.MusicalArtistAttributeEnum" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.MusicalWorkCode" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.eletronic.EletronicInstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.Record" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Work" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.artist.MusicalArtistHistoricalData" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.event.EventBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.office.OfficeUrl" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.wood.WoodWindInstrumentType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.Country" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+327  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.City" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.StrategyExcetion" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.event.EventCategory" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.google.GoogleBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.company.RecordCompanyAttributes" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.Mappable" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.persistence.jpa.JpaDAO" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.MimeType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.NormalizedContact" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.performance.MusicalPerformanceType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.GUIBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.google.GoogleObject" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.person.Person" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.wood.WoodWindInstrument" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.Base" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.city.Building" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+328  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.Datable" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.record.MusicalRecord" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.ATContactBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.office.Office" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.net.Url" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.performance.PerformanceBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.WindInstrument" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.google.news.GoogleNewsBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.artist.MusicalArtistAttributes" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.BaseException" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.country.ZipCode" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.MusicalCollection" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Outputter" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.ScannedOffice" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.gender.MusicalGender" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.artist.GroupType" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+329  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.MusicalWork" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+330  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Person" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+330  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.DayBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+330  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.ResultListBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+330  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.InstrumentBase" found to be part of persistence-unit "MusicBrainz" so loading it in case it is persistable
+330  [main] DEBUG DataNucleus.MetaData  - Not found any metadata mapping files for resource name META-INF/orm.xml in CLASSPATH
+379  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.Datable" has been specified with JPA annotations so using those.
+396  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.Record" has been specified with JPA annotations so using those.
+397  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.contacts.Contact was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+397  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.MimeType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+398  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.date.jpa.MinuteBaseEventListener was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+401  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.DateBase" has been specified with JPA annotations so using those.
+410  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.persistence.DAOException was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+410  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.Kong was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+411  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.office.OfficeDetail was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+411  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.atlas.IsoAlpha3Code was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+412  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.artist.MusicalArtistAttributeEnum was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+413  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.eletronic.EletronicInstrument" has been specified with JPA annotations so using those.
+414  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.atlas.CountryNumericCode was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+414  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.Identifiable was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+415  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.MusicalWork" has been specified with JPA annotations so using those.
+416  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.PageItemBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+416  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.Groupable was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+417  [main] ERROR DataNucleus.MetaData  - 
+417  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.brass.BrassInstrument" has been specified with JPA annotations so using those.
+420  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.StrategyExcetion was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+421  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.BirthDateBase" has been specified with JPA annotations so using those.
+422  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.MinuteBase" has been specified with JPA annotations so using those.
+423  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.contacts.ComercialContact was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+423  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.date.jpa.DatableEventListener was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+424  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.Stamp was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+424  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.office.OfficeUrl was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+425  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.Country" has been specified with JPA annotations so using those.
+426  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.artist.Artist" has been specified with JPA annotations so using those.
+427  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.gender.MusicalGender" has been specified with JPA annotations so using those.
+428  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.event.EventCategory was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+428  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.event.EventBase" has been specified with JPA annotations so using those.
+433  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.MusicalWorkCode" has been specified with JPA annotations so using those.
+434  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.office.Office was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+434  [main] ERROR DataNucleus.MetaData  - 
+435  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.ShortStringBase" has been specified with JPA annotations so using those.
+435  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.Stampable was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+436  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.Realm was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+436  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.work.performance.MusicalPerformanceType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+436  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.artist.MusicalArtistAttribute was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+437  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.record.MusicalRecord was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+437  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.Person was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+438  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.artist.ArtistGroup" has been specified with JPA annotations so using those.
+439  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Link" has been specified with JPA annotations so using those.
+439  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.Base was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+440  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.atlas.city.AddressBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+440  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.wind.brass.BrassInstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+440  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.work.MusicalWorkCodeType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+441  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.percurssion.PercurssionInstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+441  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.CountryAreaCode" has been specified with JPA annotations so using those.
+442  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.TextBase" has been specified with JPA annotations so using those.
+443  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.Release was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+443  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.jpa.PrePersistEventListener was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+444  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.google.GoogleBase" has been specified with JPA annotations so using those.
+444  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.GUIBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+445  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.ResultListBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+445  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.artist.GroupType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+446  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Name" has been specified with JPA annotations so using those.
+447  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.Outputter was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+447  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.WindInstrument" has been specified with JPA annotations so using those.
+448  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.feed.FeedBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+448  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.LocalizedString" has been specified with JPA annotations so using those.
+449  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.ATContactBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+450  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.atlas.city.Building was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+450  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.DayBase" has been specified with JPA annotations so using those.
+452  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.StringBase" has been specified with JPA annotations so using those.
+452  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.mail.MailBox" has been specified with JPA annotations so using those.
+453  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.persistence.DAO was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+453  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.BaseException was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+454  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.wind.wood.WoodWindInstrument" has been specified with JPA annotations so using those.
+455  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.percurssion.PercussionInstrument" has been specified with JPA annotations so using those.
+456  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.WorkType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+456  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.person.Person" has been specified with JPA annotations so using those.
+457  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.InstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+458  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.country.ZipCode" has been specified with JPA annotations so using those.
+458  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.artist.MusicalArtistAttributes was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+459  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.eletronic.EletronicInstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+459  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.company.RecordCompany was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+459  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.google.GoogleObject" has been specified with JPA annotations so using those.
+460  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.Copyright was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+460  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.string.StringInstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+461  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.wind.WindInstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+461  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.google.query.GoogleQueryBase" has been specified with JPA annotations so using those.
+462  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.keyboard.KeyboardInstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+462  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.ScannedOffice was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+463  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.keyboard.KeyboardInstrument" has been specified with JPA annotations so using those.
+463  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.jpa.EntityPersistenceEventListener was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+464  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.string.StringInstrument" has been specified with JPA annotations so using those.
+464  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.date.jpa.DayBaseEventListener was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+464  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.date.jpa.DateBaseEventListener was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+465  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.company.RecordCompanyAttribute was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+465  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.AttributeBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+465  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.artist.MusicalArtist was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+466  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.calendar.TimeZoneDateBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+466  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.persistence.jpa.JpaDAO was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+467  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.ref.RefType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+467  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.ref.RefBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+468  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.atlas.IsoAlpha2Base" has been specified with JPA annotations so using those.
+468  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.Title was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+469  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.work.performance.MusicalPerformance" has been specified with JPA annotations so using those.
+470  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.net.Url was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+470  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.news.FeedBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+471  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.instrument.wind.wood.WoodWindInstrumentType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+471  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.music.instrument.InstrumentBase" has been specified with JPA annotations so using those.
+472  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.artist.work.Author" has been specified with JPA annotations so using those.
+473  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.Mappable was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+474  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.event.CalendarEventBase" has been specified with JPA annotations so using those.
+474  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.NormalizedContact was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+475  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.MusicalCollection was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+475  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.atlas.city.build.School was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+475  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.LongBase" has been specified with JPA annotations so using those.
+476  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.Work" has been specified with JPA annotations so using those.
+477  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.calendar.CalendarGroupType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+477  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.company.RecordCompanyHistoricalData was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+477  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.atlas.City was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+478  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.company.RecordCompanyAttributes was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+478  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.calendar.CalendarBase" has been specified with JPA annotations so using those.
+483  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.google.news.GoogleNewsBase was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+483  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.CopyRightRecord was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+484  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.AbstractBase" has been specified with JPA annotations so using those.
+485  [main] DEBUG DataNucleus.MetaData  - Class "org.nanotek.base.performance.PerformanceBase" has been specified with JPA annotations so using those.
+485  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.feed.FeedGroupType was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+486  [main] DEBUG DataNucleus.MetaData  - Class org.nanotek.base.music.artist.MusicalArtistHistoricalData was specified in persistence-unit (maybe by not putting exclude-unlisted-classes) MusicBrainz but not annotated, so ignoring
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

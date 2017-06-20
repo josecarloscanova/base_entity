@@ -1,0 +1,29 @@
+package org.nanotek.base;
+
+import java.io.FileOutputStream;
+
+@SuppressWarnings("serial")
+public class Outputter extends StringBase {
+
+	private String outputFormat; 
+	
+	FileOutputStream fileDestination; 
+	
+	public Outputter(String fileName) {
+		super(fileName); 
+	}
+	
+	public Outputter(String fileName , String outputFormat) {
+		super(fileName); 
+		this.outputFormat = outputFormat; 
+	}
+
+	public String getOutputFormat() {
+		return outputFormat;
+	}
+
+	public FileOutputStream getFileDestination() {
+		return fileDestination;
+	}
+	
+}

@@ -1,0 +1,23 @@
+package org.nanotek.base.date.jpa;
+
+import javax.persistence.PrePersist;
+
+import org.nanotek.base.calendar.MinuteBase;
+import org.nanotek.base.jpa.PrePersistEventListener;
+
+/**
+ * Provisory Id generation. 
+ * 
+ * @author josecanova
+ *
+ */
+public class MinuteBaseEventListener implements  PrePersistEventListener<MinuteBase> {
+	
+	@Override
+	@PrePersist
+	public void prePersist(MinuteBase e) {
+		Integer milli = e.getMillisecond() << 16; 
+		e.setId(new Long(milli + e.getSecond()));
+	}
+
+}

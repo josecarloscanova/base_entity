@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+        http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+	version="2.1">
+	<!-- http://docs.jboss.org/hibernate/orm/4.3/manual/en-US/html/ch03.html -->
+	<persistence-unit name="musicbrainz" transaction-type="RESOURCE_LOCAL">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+
+		<class>org.nanotek.base.AbstractBase</class>
+		<class>org.nanotek.base.LongBase</class>
+		<class>org.nanotek.base.LocalizedString</class>
+		<class>org.nanotek.base.name.Name</class>
+		<class>org.nanotek.base.StringBase</class>
+		<class>org.nanotek.base.ShortStringBase</class>
+		<class>org.nanotek.base.StringPositionBase</class>
+		<class>org.nanotek.base.Work</class>
+
+		<class>org.nanotek.base.artist.Artist</class>
+		<class>org.nanotek.base.artist.group.Group</class>
+
+		<class>org.nanotek.base.author.Author</class>
+		<!-- <class>org.nanotek.base.music.author.composer.Composer</class> -->
+
+		<class>org.nanotek.base.atlas.country.Country</class>
+
+		<class>org.nanotek.base.atlas.country.CountryAreaCode</class>
+		<class>org.nanotek.base.atlas.country.IsoAlpha2Code</class>
+		<class>org.nanotek.base.atlas.country.IsoAlpha3Code</class>
+		<class>org.nanotek.base.atlas.country.CountryNumericCode</class>
+		<class>org.nanotek.base.atlas.country.ZipCode</class>
+
+		<class>org.nanotek.base.calendar.DateBase</class>
+		<class>org.nanotek.base.calendar.CalendarBase</class>
+		<class>org.nanotek.base.calendar.Datable</class>
+
+
+		<class>org.nanotek.base.calendar.date.BirthDate</class>
+		<class>org.nanotek.base.calendar.date.DeathDate</class>
+		<class>org.nanotek.base.calendar.date.InitializationDate</class>
+		<class>org.nanotek.base.calendar.date.LifeCycle</class>
+		<class>org.nanotek.base.calendar.date.RecordCreation</class>
+		<class>org.nanotek.base.calendar.date.TemporalDate</class>
+		<class>org.nanotek.base.calendar.date.TerminationDate</class>
+
+		<class>org.nanotek.base.company.Company</class>
+
+		<class>org.nanotek.base.duration.Duration</class>
+
+
+		<class>org.nanotek.base.person.Person</class>
+
+
+		<class>org.nanotek.base.music.artist.MusicalArtist</class>
+		<class>org.nanotek.base.music.artist.MusicalArtistGroup</class>
+		<class>org.nanotek.base.music.company.RecordCompany</class>
+		<class>org.nanotek.base.music.gender.MusicalGender</class>
+		<class>org.nanotek.base.music.group.MusicalGroup</class>
+		<class>org.nanotek.base.music.instrument.InstrumentBase</class>
+		<class>org.nanotek.base.music.record.MusicalRecord</class>
+		<class>org.nanotek.base.music.record.MusicalRecordDuration</class>
+		<class>org.nanotek.base.music.record.MusicalRecordParticipation</class>
+		<class>org.nanotek.base.music.record.MusicalRecordPerformance</class>
+
+		<class>org.nanotek.base.music.release.MusicalRelease</class>
+
+
+		<class>org.nanotek.base.net.Url</class>
+		<class>org.nanotek.base.net.UrlBase</class>
+
+		<class>org.nanotek.base.record.RecordDuration</class>
+
+		<class>org.nanotek.base.contacts.phone.PhoneContact</class>
+		<class>org.nanotek.base.person.contact.PersonContacts</class>
+		<class>org.nanotek.base.person.contact.PhonePersonContacts</class>
+
+		<class>org.nanotek.base.person.name.NamePart</class>
+		<class>org.nanotek.base.person.name.NamePerson</class>
+
+		<class>org.nanotek.base.person.date.PersonDeathDate</class>
+		<class>org.nanotek.base.person.date.PersonLifeCycle</class>
+		<class>org.nanotek.base.person.date.PersonBirthDate</class>
+		<class>org.nanotek.base.contacts.phone.PhoneNumberBase</class>
+		<class>org.nanotek.base.music.release.MusicalReleaseCountry</class>
+		<class>org.nanotek.base.company.VirtualCompany</class>
+		<class>org.nanotek.base.calendar.DayBase</class>
+		<class>org.nanotek.base.calendar.MinuteBase</class>
+		<class>org.nanotek.base.net.UrlStringBase</class>
+
+
+		<exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+		<properties>
+			<property name="javax.persistence.jdbc.url"
+				value="jdbc:postgresql://localhost/nanotek_music_list" />
+			<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />
+			<property name="javax.persistence.jdbc.user" value="postgres" />
+			<property name="javax.persistence.jdbc.password" value="postgres123" />
+			<property name="hibernate.show_sql" value="true" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+			<property name="hibernate.hbm2ddl.auto" value="create-drop" />
+		</properties>
+
+	</persistence-unit>
+
+	<!-- <persistence-unit name="calendar"> <property name="datanucleus.autoCreateSchema" 
+		value="false"/> <property name="datanucleus.autoCreateTables" value="true"/> 
+		<property name="datanucleus.autoCreateColumns" value="true"/> <property name="datanucleus.autoCreateConstraints" 
+		value="true"/> <provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider> 
+		<class>org.nanotek.base.date.CalendarBase</class> <class>org.nanotek.base.date.Datable</class> 
+		<class>org.nanotek.base.date.DateBase</class> <class>org.nanotek.base.date.DayBase</class> 
+		<class>org.nanotek.base.date.MinuteBase</class> <exclude-unlisted-classes/> 
+		<properties> <property name="datanucleus.autoCreateSchema" value="false"/> 
+		<property name="datanucleus.autoCreateTables" value="true"/> <property name="datanucleus.autoCreateColumns" 
+		value="true"/> <property name="datanucleus.autoCreateConstraints" value="false"/> 
+		<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/calendar"/> 
+		<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> 
+		<property name="javax.persistence.jdbc.user" value="postgres"/> <property 
+		name="javax.persistence.jdbc.password" value="postgres123"/> </properties> 
+		</persistence-unit> <persistence-unit name="atlas"> <provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider> 
+		<class>org.nanotek.base.date.CalendarBase</class> <class>org.nanotek.base.date.Datable</class> 
+		<class>org.nanotek.base.date.DateBase</class> <class>org.nanotek.base.date.DayBase</class> 
+		<class>org.nanotek.base.date.MinuteBase</class> <exclude-unlisted-classes>true</exclude-unlisted-classes> 
+		<properties> <property name="datanucleus.autoCreateSchema" value="false"/> 
+		<property name="datanucleus.autoCreateTables" value="true"/> <property name="datanucleus.autoCreateColumns" 
+		value="true"/> <property name="datanucleus.autoCreateConstraints" value="true"/> 
+		<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/atlas"/> 
+		<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> 
+		<property name="javax.persistence.jdbc.user" value="postgres"/> <property 
+		name="javax.persistence.jdbc.password" value="postgres123"/> </properties> 
+		</persistence-unit> <persistence-unit name="instruments"> <provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider> 
+		<class>org.nanotek.base.LongBase</class> <class>org.nanotek.base.music.instrument.InstrumentBase</class> 
+		<class>org.nanotek.base.music.instrument.string.StringInstrument</class> 
+		<class>org.nanotek.base.music.instrument.eletronic.EletronicInstrument</class> 
+		<class>org.nanotek.base.music.instrument.wind.brass.BrassInstrument</class> 
+		<class>org.nanotek.base.music.instrument.wind.wood.WoodWindInstrument</class> 
+		<exclude-unlisted-classes>true</exclude-unlisted-classes> <properties> <property 
+		name="datanucleus.autoCreateSchema" value="false"/> <property name="datanucleus.autoCreateTables" 
+		value="false"/> <property name="datanucleus.autoCreateColumns" value="false"/> 
+		<property name="datanucleus.autoCreateConstraints" value="false"/> <property 
+		name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/instruments"/> 
+		<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> 
+		<property name="javax.persistence.jdbc.user" value="postgres"/> <property 
+		name="javax.persistence.jdbc.password" value="postgres123"/> </properties> 
+		</persistence-unit> <persistence-unit name="social"> <provider>org.datanucleus.api.jpa.PersistenceProviderImpl</provider> 
+		<class>org.nanotek.base.LongBase</class> <class>org.nanotek.base.person.Person</class> 
+		<class>org.nanotek.base.contact.Contact</class> <class>org.nanotek.base.contacts.mail.MailContact</class> 
+		<class>org.nanotek.base.contacts.mail.MailBox</class> <class>org.nanotek.base.person.Person</class> 
+		<class>org.nanotek.base.contact.Contact</class> <class>org.nanotek.base.contacts.social.SocialContact</class> 
+		<class>org.nanotek.base.contacts.social.facebook.FaceBookCommercialContact</class> 
+		<class>org.nanotek.base.contacts.social.facebook.FacebookPersonalContact</class> 
+		<class>org.nanotek.base.contacts.social.google.GoogleCommercialContact</class> 
+		<class>org.nanotek.base.contacts.social.google.GooglePersonalContact</class> 
+		<class>org.nanotek.base.contacts.social.linkedin.LinkedInCommercialContact</class> 
+		<class>org.nanotek.base.contacts.social.linkedin.LinkedInPersonalContact</class> 
+		<class>org.nanotek.base.contacts.social.twitter.TwitterCommercialContact</class> 
+		<class>org.nanotek.base.contacts.social.twitter.TwitterPersonalContact</class> 
+		<class>org.nanotek.base.contacts.social.yahoo.YahooCommercialContact</class> 
+		<class>org.nanotek.base.contacts.social.yahoo.YahooPersonalContact</class> 
+		<class>org.nanotek.base.contacts.social.yahoo.YouTubeCommercialContact</class> 
+		<class>org.nanotek.base.contacts.social.yahoo.YouTubePersonalContact</class> 
+		<exclude-unlisted-classes>true</exclude-unlisted-classes> <properties> <property 
+		name="datanucleus.autoCreateSchema" value="false"/> <property name="datanucleus.autoCreateTables" 
+		value="false"/> <property name="datanucleus.autoCreateColumns" value="false"/> 
+		<property name="datanucleus.autoCreateConstraints" value="false"/> <property 
+		name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/instruments"/> 
+		<property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/> 
+		<property name="javax.persistence.jdbc.user" value="postgres"/> <property 
+		name="javax.persistence.jdbc.password" value="postgres123"/> </properties> 
+		</persistence-unit> -->
+
+</persistence>

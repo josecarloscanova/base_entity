@@ -1,0 +1,20 @@
+<taskdef name="schematool" classname="org.datanucleus.store.rdbms.SchemaToolTask" />
+
+<schematool failonerror="true" verbose="true" mode="create">
+    <classpath>
+        <path refid="schematool.classpath"/>
+    </classpath>
+    <fileset dir="${classes.dir}">
+        <include name="**/*.jdo"/>
+    </fileset>
+    <sysproperty key="datanucleus.ConnectionDriverName" 
+                 value="${datanucleus.ConnectionDriverName}"/>
+    <sysproperty key="datanucleus.ConnectionURL" 
+                 value="${datanucleus.ConnectionURL}"/>
+    <sysproperty key="datanucleus.ConnectionUserName" 
+                 value="${datanucleus.ConnectionUserName}"/>
+    <sysproperty key="datanucleus.ConnectionPassword" 
+                 value="${datanucleus.ConnectionPassword}"/>
+    <sysproperty key="datanucleus.Mapping" 
+                 value="${datanucleus.Mapping}"/>
+</schematool>

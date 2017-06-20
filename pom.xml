@@ -1,0 +1,123 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<!-- <parent> <groupId>org.nanotek</groupId> <artifactId>spring-core</artifactId> 
+		<version>0.01-SNAPSHOT</version> </parent> -->
+	<groupId>org.nanotek</groupId>
+	<packaging>jar</packaging>
+	<artifactId>base_entity</artifactId>
+	<version>1.0</version>
+	<name>base_entity</name>
+<!-- 	<url>https://code.google.com/p/jpa-database-model-music-brainz/</url>
+ -->
+	<properties>
+		<org.junit.version>4.9</org.junit.version>
+		<org.datanucleus.version>5.1</org.datanucleus.version>
+		<appengine.target.version>1.9.7</appengine.target.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.jar.plugin.version>3.0.0</maven.jar.plugin.version>
+		<maven.compiler.plugin.version>3.2</maven.compiler.plugin.version>
+		<postgres.jdbc.driver.version>42.1.1</postgres.jdbc.driver.version>
+		<hibernate.version>5.2.10.Final</hibernate.version>
+		<hibernate.validator.version>5.4.1.Final</hibernate.validator.version>
+		<java.version>1.8</java.version>
+	</properties>
+	<!-- <repositories> <repository> <id>objectdb</id> <name>ObjectDB Repository</name> 
+		<url>http://m2.objectdb.com</url> </repository> </repositories> -->
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.1.1</version>
+		</dependency>
+		<!-- Test Dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>${org.junit.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.0</version>
+			<scope>test</scope>
+		</dependency>
+		<!--<groupId>org.eclipse.persistence</groupId> <artifactId>javax.persistence</artifactId> 
+			<version>2.1.0</version> <scope>provided</scope> </dependency> -->
+		<!-- <dependency> <groupId>org.datanucleus</groupId> <artifactId>datanucleus-core</artifactId> 
+			<version>3.2.13</version> </dependency> <dependency> <groupId>org.datanucleus</groupId> 
+			<artifactId>datanucleus-api-jpa</artifactId> <version>3.3.7</version> </dependency> 
+			<dependency> <groupId>org.datanucleus</groupId> <artifactId>datanucleus-jpa-query</artifactId> 
+			<version>3.0.3</version> </dependency> <dependency> <groupId>org.datanucleus</groupId> 
+			<artifactId>datanucleus-rdbms</artifactId> <version>3.2.12</version> </dependency> 
+			<dependency> <groupId>org.datanucleus</groupId> <artifactId>datanucleus-core</artifactId> 
+			<version>4.0.1</version> </dependency> <dependency> <groupId>org.datanucleus</groupId> 
+			<artifactId>datanucleus-rdbms</artifactId> <version>4.0.1</version> </dependency> 
+			<dependency> <groupId>org.datanucleus</groupId> <artifactId>datanucleus-maven-plugin</artifactId> 
+			<version>4.0.0-release</version> <scope>runtime</scope> </dependency> <dependency> 
+			<groupId>org.datanucleus</groupId> <artifactId>javax.persistence</artifactId> 
+			<version>2.1.0</version> <scope>runtime</scope> </dependency> <dependency> 
+			<groupId>org.datanucleus</groupId> <artifactId>datanucleus-api-jpa</artifactId> 
+			<version>4.0.1</version> </dependency> -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>${hibernate.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>${hibernate.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-jpamodelgen</artifactId>
+			<version>${hibernate.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate.validator.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<version>${maven.compiler.plugin.version}</version>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>${java.version}</source>
+					<target>${java.version}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<version>${maven.jar.plugin.version}</version>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

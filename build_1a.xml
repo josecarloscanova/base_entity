@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="base">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../Java/eclipse-standard-luna-R-win32-x86_64/eclipse/"/>
+    <property name="jpa_base.location" value="../jpa_base"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="Maven Dependencies.libraryclasspath">
+        <pathelement location="../../.m2/repository/org/postgresql/postgresql/9.3-1101-jdbc4/postgresql-9.3-1101-jdbc4.jar"/>
+        <pathelement location="../../.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+        <pathelement location="../../.m2/repository/jstl/jstl/1.2/jstl-1.2.jar"/>
+        <pathelement location="../../.m2/repository/junit/junit/4.9/junit-4.9.jar"/>
+        <pathelement location="../../.m2/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+        <pathelement location="../../.m2/repository/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar"/>
+        <pathelement location="../../.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+        <pathelement location="../../.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+        <pathelement location="../../.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+        <pathelement location="../../.m2/repository/org/hibernate/hibernate-jpamodelgen/4.3.6.Final/hibernate-jpamodelgen-4.3.6.Final.jar"/>
+        <pathelement location="../../.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
+        <pathelement location="../../.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+        <pathelement location="../../.m2/repository/org/hibernate/hibernate-validator/5.1.2.Final/hibernate-validator-5.1.2.Final.jar"/>
+        <pathelement location="../../.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar"/>
+        <pathelement location="../../.m2/repository/com/fasterxml/classmate/1.0.0/classmate-1.0.0.jar"/>
+    </path>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}plugins/org.junit_4.11.0.v201303080030/junit.jar"/>
+        <pathelement location="${ECLIPSE_HOME}plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+    </path>
+    <path id="base.classpath">
+        <pathelement location="target/classes"/>
+        <pathelement location="target/test-classes"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+        <pathelement location="lib/jpa/hibernate-entitymanager-4.3.6.Final.jar"/>
+        <pathelement location="lib/jpa-metamodel-generator/hibernate-jpamodelgen-4.3.6.Final.jar"/>
+    </path>
+    <path id="run.ArtistDataNucleusMappedEntityTest.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.DataNucleusMappedEntityRetrieveTest.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.DataNucleusMappedEntityTest (2).classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.EnhancerTest (3).classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.InstrumentBaseTest.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.JPATestDAO.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.JPATestDAO.start.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.PersistenceManagerFactoryTest (1).classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.TestMappedStringBase.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.WorkDataNucleusMappedEntityTest.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.ZipCoderDataNucleusMappedEntityTest.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.AppTest.classpath">
+        <path refid="base.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="target/classes"/>
+        <mkdir dir="target/test-classes"/>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src/main/java">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="target/test-classes">
+            <fileset dir="src/test/java">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src/main/resources">
+                <include name="**/*.java"/>
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="target/classes"/>
+        <delete dir="target/test-classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src/main/java"/>
+            <src path="src/main/resources"/>
+            <include name="**/*.java"/>
+            <classpath refid="base.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/test-classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src/test/java"/>
+            <classpath refid="base.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects">
+        <ant antfile="build.xml" dir="${jpa_base.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${jpa_base.location}" inheritAll="false" target="build">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+    </target>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="ArtistDataNucleusMappedEntityTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.ArtistDataNucleusMappedEntityTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.ArtistDataNucleusMappedEntityTest.classpath"/>
+        </junit>
+    </target>
+    <target name="DataNucleusMappedEntityRetrieveTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.DataNucleusMappedEntityRetrieveTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.DataNucleusMappedEntityRetrieveTest.classpath"/>
+        </junit>
+    </target>
+    <target name="DataNucleusMappedEntityTest (2)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.DataNucleusMappedEntityTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.DataNucleusMappedEntityTest (2).classpath"/>
+        </junit>
+    </target>
+    <target name="EnhancerTest (3)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.EnhancerTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.EnhancerTest (3).classpath"/>
+        </junit>
+    </target>
+    <target name="InstrumentBaseTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.instruments.InstrumentBaseTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.InstrumentBaseTest.classpath"/>
+        </junit>
+    </target>
+    <target name="JPATestDAO">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.dao.JPATestDAO" todir="${junit.output.dir}"/>
+            <classpath refid="run.JPATestDAO.classpath"/>
+        </junit>
+    </target>
+    <target name="JPATestDAO.start">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.dao.JPATestDAO" todir="${junit.output.dir}"/>
+            <classpath refid="run.JPATestDAO.start.classpath"/>
+        </junit>
+    </target>
+    <target name="PersistenceManagerFactoryTest (1)">
+        <java classname="test.org.nanotek.datanucleus.PersistenceManagerFactoryTest" failonerror="true" fork="yes">
+            <classpath refid="run.PersistenceManagerFactoryTest (1).classpath"/>
+        </java>
+    </target>
+    <target name="TestMappedStringBase">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.TestMappedStringBase" todir="${junit.output.dir}"/>
+            <classpath refid="run.TestMappedStringBase.classpath"/>
+        </junit>
+    </target>
+    <target name="WorkDataNucleusMappedEntityTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.WorkDataNucleusMappedEntityTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.WorkDataNucleusMappedEntityTest.classpath"/>
+        </junit>
+    </target>
+    <target name="ZipCoderDataNucleusMappedEntityTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="test.org.nanotek.datanucleus.persistence.ZipCoderDataNucleusMappedEntityTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.ZipCoderDataNucleusMappedEntityTest.classpath"/>
+        </junit>
+    </target>
+    <target name="AppTest">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="org.nanotek.base.AppTest" todir="${junit.output.dir}"/>
+            <classpath refid="run.AppTest.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

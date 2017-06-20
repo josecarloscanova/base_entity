@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project name="nucleus_enhancer" basedir="." default="enhancer">
+
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../Java/eclipse-standard-luna-R-win32-x86_64/eclipse/"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+	<property name="datanucleus.ConnectionDriverName" value="org.postgresql.Driver"/>
+	<property name="datanucleus.ConnectionURL" value="jdbc:postgresql://localhost/musicbrainz"/>
+	<property name="datanucleus.ConnectionUserName" value="postgres"/>
+	<property name="datanucleus.ConnectionPassword" value="postgres123"/>
+	<property name="jpa.persistence.unit.musicbrainz" value="MusicBrainz"/>
+	<property name="jpa.persistence.unit.calendar" value="CalendarEvents"/>
+	<property name="jpa.persistence.unit.atlas" value="Atlas"/>
+	<property name="jpa.persistence.unit.instruments" value="Instruments"/>
+	<property name="current.jpa.target" value="${jpa.persistence.unit.musicbrainz}"/>	
+	<property name="schema.output.file" value="${basedir}/${current.jpa.target}_schema.ddl"/>
+		
+	<path id="library.classpath"> 
+        <pathelement location="../../.m2/repository/javax/jdo/jdo-api/3.1-rc1/jdo-api-3.1-rc1.jar"/>
+        <pathelement location="../../.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar"/>
+        <pathelement location="../../.m2/repository/org/datanucleus/datanucleus-core/4.0.1/datanucleus-core-4.0.1.jar"/>
+		<pathelement location="../../.m2/repository/org/datanucleus/datanucleus-rdbms/4.0.1/datanucleus-rdbms-4.0.1.jar"/>
+		<pathelement location="../../.m2/repository/org/datanucleus/javax.persistence/2.1.0/javax.persistence-2.1.0.jar"/>
+		<pathelement location="../../.m2/repository/org/datanucleus/datanucleus-api-jpa/4.0.1/datanucleus-api-jpa-4.0.1.jar"/>
+		<pathelement location="../../.m2/repository/org/datanucleus/datanucleus-api-jdo/4.0.1/datanucleus-api-jdo-4.0.1.jar"/>
+		<pathelement location="../../.m2/repository/org/datanucleus/datanucleus-jdo-query/4.0.1/datanucleus-jdo-query-4.0.1.jar"/>
+        <pathelement location="../../.m2/repository/org/datanucleus/datanucleus-maven-plugin/4.0.0-release/datanucleus-maven-plugin-4.0.0-release.jar"/>
+	</path>
+	
+    <path id="base.classpath">
+        <pathelement location="target/classes"/>
+        <pathelement location="target/test-classes"/>
+        <path refid="library.classpath"/>
+    </path>
+        	
+	<target name="init">
+	        <mkdir dir="target/classes"/>
+	        <mkdir dir="target/test-classes"/>
+	        <copy includeemptydirs="false" todir="target/classes">
+	            <fileset dir="src/main/java">
+	                <exclude name="**/*.launch"/>
+	                <exclude name="**/*.java"/>
+	            </fileset>
+	        </copy>
+	        <copy includeemptydirs="false" todir="target/test-classes">
+	            <fileset dir="src/test/java">
+	                <exclude name="**/*.launch"/>
+	                <exclude name="**/*.java"/>
+	            </fileset>
+	        </copy>
+	        <copy includeemptydirs="false" todir="target/classes">
+	            <fileset dir="src/main/resources">
+	                <exclude name="**/*.launch"/>
+	                <exclude name="**/*.java"/>
+	            </fileset>
+	        </copy>
+	    </target>
+	
+	<target name="enhancer">
+
+ 	              	        <echo message="==================================================================="/>
+ 	              	        <echo message="Enhancing the MODULE files"/>
+ 	              	        <echo message="==================================================================="/>
+
+ 	              	        <!-- the classpath to enhance -->
+ 	              	        <path id="module.enhancer.classpath">
+ 	              	        	<pathelement location="src/main/resources"/>
+ 	              	            <path refid="base.classpath"/>
+ 	              	        </path>
+
+ 	              	        <!-- define the task enhancer -->
+ 	              	        <taskdef name="nucleusenhancer"
+ 	              	                 classpathref="module.enhancer.classpath"
+ 	              	                 classname="org.datanucleus.enhancer.EnhancerTask" 
+ 	              	        />
+
+							<!-- enhance -->
+ 	              	        <nucleusenhancer classpathref="module.enhancer.classpath" 
+ 	              	        	persistenceUnit="${current.jpa.target}" verbose="true" api="JPA" >
+ 	              	        </nucleusenhancer>
+
+ 	     </target>	
+
+</project>
